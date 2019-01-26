@@ -8,6 +8,9 @@ module.exports = {
     // Setup SASS
     config.module.rules.push(
       {
+        target: "serverless"
+      },
+      {
         test: /\.(css|scss)/,
         loader: 'emit-file-loader',
         options: {

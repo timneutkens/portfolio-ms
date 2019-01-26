@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{207:function(n,t,e){__NEXT_REGISTER_PAGE("/about",function(){return n.exports=e(208),{page:n.exports.default}})},208:function(n,t,e){"use strict";e.r(t);var u=e(0),o=e.n(u),a=e(52);t.default=function(){return o.a.createElement(a.a,null)}}},[[207,1,0]]]);
