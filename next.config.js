@@ -4,12 +4,10 @@ const path = require('path');
 const glob = require('glob');
 
 module.exports = {
+  target: 'serverless',
   webpack: (config, { dev }) => {
     // Setup SASS
     config.module.rules.push(
-      {
-        target: "serverless"
-      },
       {
         test: /\.(css|scss)/,
         loader: 'emit-file-loader',
